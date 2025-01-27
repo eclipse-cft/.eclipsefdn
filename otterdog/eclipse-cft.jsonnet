@@ -16,9 +16,6 @@ orgs.newOrg('ecd.cft', 'eclipse-cft') {
       has_issues: false,
       has_wiki: false,
       web_commit_signoff_required: false,
-      workflows+: {
-        default_workflow_permissions: "write",
-      },
     },
   ],
 }
